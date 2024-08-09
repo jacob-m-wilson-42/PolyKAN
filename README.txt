@@ -1,4 +1,4 @@
-# This repository contains files to replicate all results of the SimpleKAN paper. 
+#This repository contains files to replicate all results of the SimpleKAN paper. 
 
 
 ## KAN_funcs.jl
