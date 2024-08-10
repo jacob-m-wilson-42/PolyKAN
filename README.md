@@ -31,10 +31,10 @@ Now type
 ```
 (@v1.10) pkg> activate .
 ```
-Be sure to not forget the "." . You should now notice the REPL prompt has changed to reflect the new Julia environment you have just entered. In this case the REPL indicates we are in the environment `(test)` which is what we named the folder we cloned our repository in to. Julia environments are like containers that hold specific package versions. Different environments can be used for different projects to ensure various packages do not conflict. Because you are now in the cloned environment, we have to install all required packages in the same versions as the repository. We can simply do this by typing
+Be sure to not forget the "." . You should now notice the REPL prompt has changed to reflect the new Julia environment you have just entered. In this case the REPL indicates we are in the environment `(SimpleKAN)`. Different environments can be used for different projects to ensure various packages do not conflict. Because you are now in the cloned environment, we have to install all required packages in the same versions as the repository. We can simply do this by typing
 
 ```
-(test) pkg> instantiate
+(SimpleKAN) pkg> instantiate
 ```
 
 This should install all dependencies for you! Note that VSCode should create a .vscode folder which will contain information specific to the environment you are working with. In general, when restarting VSCode, ensure the bottom of the window displays the correct working environment and NOT the default environment that is shown below.
