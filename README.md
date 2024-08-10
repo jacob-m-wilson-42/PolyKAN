@@ -45,7 +45,7 @@ More detailed information on package installation can be found [here](https://pk
 
 ![image](https://github.com/user-attachments/assets/7b5bd035-ef6b-4a5c-9fc1-6af236c5893d)
 
-Simple as that! We provided four files for users to experiment with to replicate results from the paper. We additionally included a file that describes how to use CUDA to run our network on the GPU!
+Simple as that! We provided three files for users to experiment with and replicate results from the paper. We additionally included a file that describes how to use CUDA to run our network on the GPU!
 
 
 # Brief File Description
