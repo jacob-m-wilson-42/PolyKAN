@@ -31,7 +31,7 @@ Now type
 ```
 (@v1.10) pkg> activate .
 ```
-Be sure to not forget the "." . You should now notice the REPL prompt has changed to reflect the new Julia environment you have just entered. In this case the REPL indicates we are in the environment `(SimpleKAN)`. Different environments can be used for different projects to ensure various packages do not conflict. Because you are now in the cloned environment, we have to install all required packages in the same versions as the repository. We can simply do this by typing
+Be sure to not forget the "." . You should now notice the REPL prompt has changed to reflect the new Julia environment you have just entered. In this case the REPL indicates we are in the environment `(SimpleKAN)`. Different environments can be used for different projects to ensure various packages do not conflict. Because you are now in a new environment which has no packages at the moment, we have to install all required packages in the same versions as the repository. We can simply do this by typing
 
 ```
 (SimpleKAN) pkg> instantiate
