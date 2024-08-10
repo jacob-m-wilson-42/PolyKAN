@@ -37,11 +37,11 @@ Be sure to not forget the "." . You should now notice the REPL prompt has change
 (SimpleKAN) pkg> instantiate
 ```
 
-This should install all dependencies for you! Note that VSCode should create a .vscode folder which will contain information specific to the environment you are working with. In general, when restarting VSCode, ensure the bottom of the window displays the correct working environment and NOT the default environment that is shown below.
+This should install all dependencies for you! Note that VSCode should create a .vscode folder which will contain information specific to the environment you are working with. In general, when restarting VSCode, ensure the bottom of the window displays the correct working environment and **NOT** the default environment that is shown below.
 
 ![image](https://github.com/user-attachments/assets/aca78ff8-309e-46c1-8cce-2c989bf5627a)
 
-More detailed information on package installation can be found [here](https://pkgdocs.julialang.org/v1/environments/). Note to leave the REPL package manager, simple type the backspace key. To run files in VSCode, simply open a file and press the run key in the top right of the window (by default).
+More detailed information on package installation can be found [here](https://pkgdocs.julialang.org/v1/environments/). Note to leave the REPL package manager, simply type the backspace key. To run files in VSCode, simply open a file and press the run key in the top right of the window (by default).
 
 ![image](https://github.com/user-attachments/assets/7b5bd035-ef6b-4a5c-9fc1-6af236c5893d)
 
