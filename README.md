@@ -6,7 +6,7 @@ We will assume the user is using VSCode as the Julia editor which can be install
 
 ## Brief GIT Tutorial and Code Cloning
 This repository can be cloned using git. First install [git](https://git-scm.com/downloads). Then click the code dropdown button
-![image](https://github.com/user-attachments/assets/a5a61b73-f2f4-41c6-bfb6-b54161717e90)
+![image](https://github.com/user-attachments/assets/3459b3f4-220a-4f3d-baa9-158bdd3b0a37)
 
 and copy the HTTPS link. Navigate to the directory in which you would like to clone the repository from the VSCode Powershell interface, the Windows CMD (Mac Terminal) or other shell application. Type the below code to clone the repository. Note, first time git users may be prompted to sign in and establish other credentials. A more detailed git tutorial can be found [here](https://git-scm.com/docs/gittutorial).
 ```
