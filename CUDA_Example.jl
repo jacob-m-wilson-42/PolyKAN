@@ -1,4 +1,4 @@
-# This file will show a brief example of how to leverage the GPU for a SimpleKAN architecture. CUDA must be installed and a compatible NVIDIA GPU must
+# This file will show a brief example of how to leverage the GPU for a PolyKAN architecture. CUDA must be installed and a compatible NVIDIA GPU must
 # be present on the processing hardware. For more information on CUDA, see CUDA docs.
 
 using Flux
@@ -15,11 +15,11 @@ num_input_dimensions = 10
 x = rand(num_input_dimensions,10000) # generate some input data
 
 # create the model
-model = Chain(SimpleKAN(num_input_dimensions=>10,poly_degree=4), # SimpleKAN layer
+model = Chain(PolyKAN(num_input_dimensions=>10,poly_degree=4), # PolyKAN layer
               x -> x ./ 10, # Kolmogorov compression
-              SimpleKAN(10=>10,poly_degree=4),
+              PolyKAN(10=>10,poly_degree=4),
               x -> x ./ 10,
-              SimpleKAN(10=>1,poly_degree=4))
+              PolyKAN(10=>1,poly_degree=4))
 
 
 println("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%")

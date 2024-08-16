@@ -33,9 +33,9 @@ function begintraining()
     fig1=fig2=fig3=[] # initialize variables for use in plotting
 
     # define the model
-    model = Chain(SimpleKAN(2=>4,poly_degree=4),
+    model = Chain(PolyKAN(2=>4,poly_degree=4),
                 temp -> temp ./ 10,
-                SimpleKAN(4=>1,poly_degree=4)) 
+                PolyKAN(4=>1,poly_degree=4)) 
 
                 
     # set up optimizer with default learning rate            
