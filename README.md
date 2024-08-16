@@ -1,5 +1,5 @@
-# SimpleKAN: A Polynomial Approach to Kolmogorov-Arnold Networks with Symbolic Computation
-This repository contains files to replicate all results of the SimpleKAN paper (submission in progress). Below is a brief description of the included files. All demonstration files are designed to be run independently with functions supplied from KAN_funcs.jl.
+# PolyKAN: A Polynomial Approach to Kolmogorov-Arnold Networks with Symbolic Computation
+This repository contains files to replicate all results of the PolyKAN paper (submission in progress). Below is a brief description of the included files. All demonstration files are designed to be run independently with functions supplied from KAN_funcs.jl.
 
 # Getting Started
 We will assume the user is using VSCode as the Julia editor which can be installed [here](https://code.visualstudio.com/download). We will also assume the user is running Julia version 1.10.0 , however, future versions of Julia below 2.0.0 should remain compatible. Julia can be installed [here](https://julialang.org/downloads/). Also ensure the Julia extension in VSCode is installed. A great introductory tutorial for installing and using Julia in VSCode can be found [here](https://code.visualstudio.com/docs/languages/julia).
@@ -31,10 +31,10 @@ Now type
 ```
 (@v1.10) pkg> activate .
 ```
-Be sure to not forget the "." . You should now notice the REPL prompt has changed to reflect the new Julia environment you have just entered. In this case the REPL indicates we are in the environment `(SimpleKAN)`. Different environments can be used for different projects to ensure various packages do not conflict. Because you are now in a new environment which has no packages at the moment, we have to install all required packages in the same versions as the repository. We can simply do this by typing
+Be sure to not forget the "." . You should now notice the REPL prompt has changed to reflect the new Julia environment you have just entered. In this case the REPL indicates we are in the environment `(PolyKAN)`. Different environments can be used for different projects to ensure various packages do not conflict. Because you are now in a new environment which has no packages at the moment, we have to install all required packages in the same versions as the repository. We can simply do this by typing
 
 ```
-(SimpleKAN) pkg> instantiate
+(PolyKAN) pkg> instantiate
 ```
 
 This should install all dependencies for you! Note that VSCode should create a .vscode folder which will contain information specific to the environment you are working with. In general, when restarting VSCode, ensure the bottom of the window displays the correct working environment and **NOT** the default environment that is shown below.
@@ -50,7 +50,7 @@ Simple as that! We provided three files for users to experiment with and replica
 
 # Brief File Description
 ## KAN_funcs.jl
-This file contains all files necessary to create SimpleKAN models and compute outputs. It can be copied into a user's project directory and included into a file using the `include()` function. It will give the user the ability to create and use SimpleKAN models that are compatible with the Flux package.
+This file contains all files necessary to create PolyKAN models and compute outputs. It can be copied into a user's project directory and included into a file using the `include()` function. It will give the user the ability to create and use PolyKAN models that are compatible with the Flux package.
 
 ## Performance Demonstration Files
 These files can be directly executed without modification to reproduce the results in the paper. 
