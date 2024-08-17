@@ -58,4 +58,15 @@ These files can be directly executed without modification to reproduce the resul
 ### CUDA_Example.jl
 This file contains information about how to utilize the GPU with our network!
 
+# Citation
+If you use our work in your research, please cite the following paper:
+```Latex
+@article{PolyKAN,
+  author  = "Wilson, Jacob and Voelz, David",
+  title   = "PolyKAN: A Polynomial Approach to Kolmogorov-Arnold Networks with Symbolic Computation",
+  journal = "Journal of Artificial Intelligence Research (JAIR) (Submission Pending)",
+  year    = "2024",
+}
+```
+
 
