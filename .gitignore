@@ -1,2 +1,3 @@
 *.png
 Performance_Demonstration_Symbolic_Results/*.txt
+.vscode/
