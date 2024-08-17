@@ -1,5 +1,7 @@
-# PolyKAN: A Polynomial Approach to Kolmogorov-Arnold Networks with Symbolic Computation
+# <p align="center"> PolyKAN: A Polynomial Approach to Kolmogorov-Arnold Networks with Symbolic Computation
 This repository contains files to replicate all results of the PolyKAN paper (submission in progress). Below is a brief description of the included files. All demonstration files are designed to be run independently with functions supplied from KAN_funcs.jl.
+
+<p align="center"><img src="https://github.com/user-attachments/assets/a683de0e-38b2-4c3d-a286-b93223529541" width="750">
 
 # Getting Started
 We will assume the user is using VSCode as the Julia editor which can be installed [here](https://code.visualstudio.com/download). We will also assume the user is running Julia version 1.10.0 , however, future versions of Julia below 2.0.0 should remain compatible. Julia can be installed [here](https://julialang.org/downloads/). Also ensure the Julia extension in VSCode is installed. A great introductory tutorial for installing and using Julia in VSCode can be found [here](https://code.visualstudio.com/docs/languages/julia).
