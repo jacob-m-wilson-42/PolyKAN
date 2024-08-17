@@ -60,7 +60,7 @@ This file contains information about how to utilize the GPU with our network!
 
 # Citation
 If you use our work in your research, please cite the following paper:
-```Latex
+```
 @article{PolyKAN,
   author  = "Wilson, Jacob and Voelz, David",
   title   = "PolyKAN: A Polynomial Approach to Kolmogorov-Arnold Networks with Symbolic Computation",
