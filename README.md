@@ -1,5 +1,5 @@
 # <p align="center"> PolyKAN: A Polynomial Approach to Kolmogorov-Arnold Networks with Symbolic Computation
-This repository contains files to replicate all results of the PolyKAN paper (submission in progress). Below is a brief description of the included files. All demonstration files are designed to be run independently with functions supplied from KAN_funcs.jl.
+This repository contains files to replicate all results of the PolyKAN paper (pending review). Below is a brief description of the included files. All demonstration files are designed to be run independently with functions supplied from KAN_funcs.jl.
 
 <p align="center"><img src="https://github.com/user-attachments/assets/a683de0e-38b2-4c3d-a286-b93223529541" width="750">
 
